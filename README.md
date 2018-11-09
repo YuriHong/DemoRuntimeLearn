@@ -1,6 +1,6 @@
 # RuntimePDF
->转载自刘小壮 博客 https://www.jianshu.com/u/2de707c93dc4
-  GitHub：https://github.com/DeveloperErenLiu
+>转载自[刘小壮 博客](https://www.jianshu.com/u/2de707c93dc4)
+  [GitHub](https://github.com/DeveloperErenLiu)
 > `Runtime`是`iOS`系统中重要的组成部分，面试也是必问的问题，所以`Runtime`是一个`iOS`工程师必须掌握的知识点。
 >
 > 现在市面上有很多关于`Runtime`的学习资料，也有不少高质量的，但是大多数质量都不是很高，而且都只介绍某个点，并不全面。
