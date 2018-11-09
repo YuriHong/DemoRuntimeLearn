@@ -13,6 +13,9 @@
 		795EDBBF2195310800DE6D83 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 795EDBBE2195310800DE6D83 /* Assets.xcassets */; };
 		795EDBC22195310800DE6D83 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 795EDBC02195310800DE6D83 /* LaunchScreen.storyboard */; };
 		795EDBC52195310800DE6D83 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 795EDBC42195310800DE6D83 /* main.m */; };
+		795EDBCD2195349A00DE6D83 /* TestObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 795EDBCC2195349A00DE6D83 /* TestObject.m */; };
+		795EDBD5219570A500DE6D83 /* Runtime.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 795EDBD3219570A500DE6D83 /* Runtime.pdf */; };
+		795EDBD6219570A500DE6D83 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 795EDBD4219570A500DE6D83 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,10 @@
 		795EDBC12195310800DE6D83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		795EDBC32195310800DE6D83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		795EDBC42195310800DE6D83 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		795EDBCB2195349A00DE6D83 /* TestObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestObject.h; sourceTree = "<group>"; };
+		795EDBCC2195349A00DE6D83 /* TestObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestObject.m; sourceTree = "<group>"; };
+		795EDBD3219570A500DE6D83 /* Runtime.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Runtime.pdf; sourceTree = "<group>"; };
+		795EDBD4219570A500DE6D83 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +49,8 @@
 		795EDBA92195310200DE6D83 = {
 			isa = PBXGroup;
 			children = (
+				795EDBD4219570A500DE6D83 /* README.md */,
+				795EDBD3219570A500DE6D83 /* Runtime.pdf */,
 				795EDBB42195310200DE6D83 /* DemoRuntimeLearn */,
 				795EDBB32195310200DE6D83 /* Products */,
 			);
@@ -62,6 +71,8 @@
 				795EDBB62195310200DE6D83 /* AppDelegate.m */,
 				795EDBB82195310200DE6D83 /* ViewController.h */,
 				795EDBB92195310200DE6D83 /* ViewController.m */,
+				795EDBCB2195349A00DE6D83 /* TestObject.h */,
+				795EDBCC2195349A00DE6D83 /* TestObject.m */,
 				795EDBBB2195310200DE6D83 /* Main.storyboard */,
 				795EDBBE2195310800DE6D83 /* Assets.xcassets */,
 				795EDBC02195310800DE6D83 /* LaunchScreen.storyboard */,
@@ -130,7 +141,9 @@
 			files = (
 				795EDBC22195310800DE6D83 /* LaunchScreen.storyboard in Resources */,
 				795EDBBF2195310800DE6D83 /* Assets.xcassets in Resources */,
+				795EDBD6219570A500DE6D83 /* README.md in Resources */,
 				795EDBBD2195310200DE6D83 /* Main.storyboard in Resources */,
+				795EDBD5219570A500DE6D83 /* Runtime.pdf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -143,6 +156,7 @@
 			files = (
 				795EDBBA2195310200DE6D83 /* ViewController.m in Sources */,
 				795EDBC52195310800DE6D83 /* main.m in Sources */,
+				795EDBCD2195349A00DE6D83 /* TestObject.m in Sources */,
 				795EDBB72195310200DE6D83 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
